@@ -1,0 +1,16 @@
+[package]
+name = "guess_number"
+version = "1.0.0"
+authors = []
+
+[addresses]
+guess_number = "_"
+
+[dev-addresses]
+
+[dependencies.EndlessFramework]
+git = "https://github.com/endless-labs/endless-move-framework"
+rev = "main"
+subdir = "endless-framework"
+
+[dev-dependencies]
